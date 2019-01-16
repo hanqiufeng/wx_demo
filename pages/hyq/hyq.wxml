@@ -1,0 +1,13 @@
+<!--hyq.wxml-->
+<view class='content'>
+ <switch wx:for="{{objArr}}" wx:key="unique" style='display:block;'>
+  {{item.id}}
+ </switch>
+ <button bindtap="switchs">随机排列</button>
+ <button bindtap="addSwitch">添加开关</button>
+
+ <switch wx:for="{{numArr}}" wx:key="*this" style='display:block;'>
+  {{item}}
+ </switch>
+ <button bindtap='addNum'>添加开关</button>
+</view>

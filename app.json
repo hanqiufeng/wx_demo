@@ -1,0 +1,25 @@
+{
+  "页面路径":"",
+  "pages":[
+    "pages/hyq/hyq",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "全局默认窗口展示": "",
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "我的小程序",
+    "navigationBarTextStyle":"black"
+  },
+  "网络超时时间": "",
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "是否开启 debug 模式，默认关闭": "",
+  "debug": false,
+  "navigateToMiniProgramAppIdList": [
+    "wxe5f52902cf4de896"
+  ]
+}

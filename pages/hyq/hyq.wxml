@@ -1,4 +1,27 @@
 <!--hyq.wxml-->
 <view class='content'>
-
+  
 </view>
+
+<template name="msgItem">
+  <view>
+    <text>{{index}}:{{msg}}</text>
+    <text>Time:{{time}}</text>
+  </view>
+</template>
+
+<template is="msgItem" data="{{...items}}" />
+
+<template name="odd">
+  <view>odd</view>
+</template>
+<template name="even">
+  <view>even</view>
+</template>
+
+<block wx:for="{{[1, 2, 3, 4, 5]}}" wx:key wx:for-index='idx' wx:for-item='hyq'>
+  <text>{{idx}}</text>
+  <template is="{{hyq % 2 == 0 ? 'even' : 'odd'}}" />
+</block>
+
+<view id='tapTest' data-hi='WeChat' bindtap='tapName'>Click me!</view>

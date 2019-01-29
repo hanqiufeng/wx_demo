@@ -1,7 +1,14 @@
 Page({
   data: {
     message: '你好啊！',
-
+    items: {
+      index: 0,
+      msg: 'this is a template',
+      time: '2016-09-15'
+    },
+  },
+  tapName(event){
+    console.log(event)
   },
 
 

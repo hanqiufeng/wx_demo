@@ -1,8 +1,9 @@
 {
   "页面路径":"",
   "pages":[
-    "pages/hyq/hyq",
     "pages/index/index",
+    "pages/hyq/hyq",
+    "pages/item/item",
     "pages/logs/logs"
   ],
   "全局默认窗口展示": "",
